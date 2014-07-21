@@ -10,7 +10,11 @@ import org.spockframework.util.IoUtil
 import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
 
 import spock.lang.Specification
-
+/**
+ * 下载范本
+ * @author zhaopingfei
+ *
+ */
 class DownloadSpec extends Specification{
 	HTTPBuilder http = new HTTPBuilder( 'http://reader.163.com' )
 	public void testRequestWeather(){
